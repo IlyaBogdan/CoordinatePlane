@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    position: relative;
+}
+.cell {
+    margin: 0 -1px -1px 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+.cell:nth-child(20) {
+    border-right: 1px solid black;
+}
+.row:nth-child(20) .cell{
+    border-bottom: 1px solid black;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
