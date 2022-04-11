@@ -27,8 +27,12 @@
     flex-direction: row;
 }
 
-.arrow {
+.arrow.ordinate {
     position: absolute;
-    top: 25%;
-    left: 0;
+    top: 3px
+}
+.arrow.axis {
+    position: absolute;
+    left: 3px;
+    top: 48%;
 }

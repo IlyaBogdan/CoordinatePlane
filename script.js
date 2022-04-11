@@ -18,4 +18,9 @@ window.onload = function() {
 
     // set styles for arrows
     const coordinates = root.getBoundingClientRect();
+    const arrows = document.querySelectorAll(".arrow");
+
+    // axis
+
+    arrows[1].style.left = "20%";
 }
